@@ -11,7 +11,7 @@ let kDeleteKey = "DEL"
 let kNumGuessesKey = "numGuesses"
 let kNumLettersKey = "numLetters"
 let kWordThemeKey = "wordTheme"
-let kIsAlienWordleKey = "isAlienWordle"
+let kIsAlienWordleKey = "isAlienWordleValue"
 
 let kMinGuesses = 3
 let kMaxGuesses = 8

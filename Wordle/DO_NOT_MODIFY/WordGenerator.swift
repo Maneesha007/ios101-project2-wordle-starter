@@ -65,6 +65,8 @@ class WordGenerator {
   static func generateGoalWord(with theme: WordTheme) -> [String] {
     let numLetters = SettingsManager.shared.settingsDictionary[kNumLettersKey] as! Int
     let randomWord = theme.possibleWords(numLetters: numLetters).randomElement()!
+      print("Goal Word: \(randomWord)")
+
     return randomWord.map { String($0) }
   }
 }
