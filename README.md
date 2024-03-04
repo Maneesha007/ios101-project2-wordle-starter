@@ -40,7 +40,7 @@ The following **additional** features are implemented:
 
 challenges encountered while building the app:
 
-- Ensuring that the value retrieved from the settings dictionary is casted to the correct type (int in case of , bool in case of ,string in case of)  before assigning it to the respective property.
+- Ensuring that the value retrieved from the settings dictionary is casted to the correct type (int in case of kNumLettersKey and kNumGuessesKey , bool in case of kIsAlienWordleKey ,string in case of kWordThemeKey)  before assigning it to the respective property.
 - Initially in the original code there was "isAlienWordle"(bool) as property of board controller.swift  as well as value associated with the key "kIsAlienWordleKey" . This created confusion for while assigning value to the settings property . So, I edited "isAlienWordle"value into " isAlienWordleValue".
 - I have used a checkpoint by printing the goal word, to check the next goal word when alienWordle mode is enabled.
 
